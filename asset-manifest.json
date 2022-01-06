@@ -1,22 +1,20 @@
 {
   "files": {
-    "main.css": "/AlexandreCharlier_12_06122021/static/css/main.88c577be.chunk.css",
-    "main.js": "/AlexandreCharlier_12_06122021/static/js/main.b174fd24.chunk.js",
-    "main.js.map": "/AlexandreCharlier_12_06122021/static/js/main.b174fd24.chunk.js.map",
-    "runtime-main.js": "/AlexandreCharlier_12_06122021/static/js/runtime-main.2bab9d63.js",
-    "runtime-main.js.map": "/AlexandreCharlier_12_06122021/static/js/runtime-main.2bab9d63.js.map",
-    "static/js/2.e5e76e39.chunk.js": "/AlexandreCharlier_12_06122021/static/js/2.e5e76e39.chunk.js",
-    "static/js/2.e5e76e39.chunk.js.map": "/AlexandreCharlier_12_06122021/static/js/2.e5e76e39.chunk.js.map",
-    "static/js/3.71840302.chunk.js": "/AlexandreCharlier_12_06122021/static/js/3.71840302.chunk.js",
-    "static/js/3.71840302.chunk.js.map": "/AlexandreCharlier_12_06122021/static/js/3.71840302.chunk.js.map",
+    "main.css": "/AlexandreCharlier_12_06122021/static/css/main.35575047.chunk.css",
+    "main.js": "/AlexandreCharlier_12_06122021/static/js/main.d4ac10d7.chunk.js",
+    "main.js.map": "/AlexandreCharlier_12_06122021/static/js/main.d4ac10d7.chunk.js.map",
+    "runtime-main.js": "/AlexandreCharlier_12_06122021/static/js/runtime-main.7c9bd8c4.js",
+    "runtime-main.js.map": "/AlexandreCharlier_12_06122021/static/js/runtime-main.7c9bd8c4.js.map",
+    "static/js/2.381dfb31.chunk.js": "/AlexandreCharlier_12_06122021/static/js/2.381dfb31.chunk.js",
+    "static/js/2.381dfb31.chunk.js.map": "/AlexandreCharlier_12_06122021/static/js/2.381dfb31.chunk.js.map",
     "index.html": "/AlexandreCharlier_12_06122021/index.html",
-    "static/css/main.88c577be.chunk.css.map": "/AlexandreCharlier_12_06122021/static/css/main.88c577be.chunk.css.map",
-    "static/js/2.e5e76e39.chunk.js.LICENSE.txt": "/AlexandreCharlier_12_06122021/static/js/2.e5e76e39.chunk.js.LICENSE.txt"
+    "static/css/main.35575047.chunk.css.map": "/AlexandreCharlier_12_06122021/static/css/main.35575047.chunk.css.map",
+    "static/js/2.381dfb31.chunk.js.LICENSE.txt": "/AlexandreCharlier_12_06122021/static/js/2.381dfb31.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.2bab9d63.js",
-    "static/js/2.e5e76e39.chunk.js",
-    "static/css/main.88c577be.chunk.css",
-    "static/js/main.b174fd24.chunk.js"
+    "static/js/runtime-main.7c9bd8c4.js",
+    "static/js/2.381dfb31.chunk.js",
+    "static/css/main.35575047.chunk.css",
+    "static/js/main.d4ac10d7.chunk.js"
   ]
 }
