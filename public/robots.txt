@@ -1,0 +1,5 @@
+# https://www.robotstxt.org/robotstxt.html
+User-agent: *
+Disallow:
+
+Sitemap: https://alexandre34000.github.io/AlexandreCharlier_12_06122021/sitemap.xml.

@@ -1,0 +1,19 @@
+/**
+* _font.scss 1.0 novembre 2021 by Alexandre CHARLIER  
+* Author : Alexandre CHARLIER.
+* GitHub : https://github.com/alexandre34000/AlexandreCharlier_11_16112021
+* Theme Name : Kasa.
+* Description : style du font pour ce projet.
+* Date: novembre 2021. 
+*/
+
+html {
+  font-size: 62.5%;
+
+}
+
+body {
+  font-family: $font-texte, sans-serif;
+  font-weight: 500;
+  font-size: $font-size-min;
+}

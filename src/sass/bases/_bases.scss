@@ -1,0 +1,45 @@
+/**
+* _bases.scss 1.0 novembre 2021 by Alexandre CHARLIER  
+* Author : Alexandre CHARLIER.
+* GitHub : https://github.com/alexandre34000/AlexandreCharlier_11_16112021
+* Theme Name : Kasa.
+* Description : style de base pour ce projet.
+* Date: novembre 2021. 
+*/
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  min-height: 760px;
+}
+
+body {
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}

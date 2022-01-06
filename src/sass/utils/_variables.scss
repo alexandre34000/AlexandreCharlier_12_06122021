@@ -1,0 +1,43 @@
+/**
+* _variables.scss 1.0 decembre 2021 by Alexandre CHARLIER  
+* Author : Alexandre CHARLIER.
+* GitHub : https://github.com/alexandre34000/AlexandreCharlier_11_16112021
+* Theme Name : sportSee.
+* Description : déclaration des variables pour ce projet.
+* Date: decembre 2021. 
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/*--colors and score WCAG--*/
+$primary-background: #E5E5E5;
+$secondary-background: #020203;
+$third-background: #FF0101;
+$fourth-background: #FBFBFB;
+$fifth-background:#FF0000;
+
+/*--links--*/
+$primary-color : #000000;
+$secondary-color : #FFFFFF;
+$tertiary-color: #74798C;
+
+/*--font--*/
+$font-size-min: 1.2rem;
+$font-size-sm: 1.3rem;
+$font-size-exsm: 1.4rem;
+$font-size-md: 1.8rem;
+$font-size-lg: 2.4rem;
+$font-size-exlg: 3.6rem;
+$font-size-big: 4.8rem;
+
+/*--font-familly--*/
+$font-texte: 'Roboto',
+sans-serif;
+
+/*--media query--*/
+$breakpoints:(mobile: 320px,
+    mobile-landscape: 576px,
+    tablette: 768px,
+    tablette-landscape: 1024px,
+    desktop: 1199px,
+    tv: 1600px);

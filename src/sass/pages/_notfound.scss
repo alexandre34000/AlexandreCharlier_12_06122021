@@ -1,0 +1,61 @@
+/**
+* _notfound.scss 1.0 novembre 2021 by Alexandre CHARLIER  
+* Author : Alexandre CHARLIER.
+* GitHub : https://github.com/alexandre34000/AlexandreCharlier_11_16112021
+* Theme Name : Kasa.
+* Description : style pour la page 404 de ce projet.
+* Date: novembre 2021. 
+*/
+
+.content-notFound {
+    display: block;
+    width: 100%;
+    height: 745px;
+
+    @include desktop {
+        height: 916px;
+    }
+}
+
+.notFound-title {
+    padding-top: 169px;
+    font-size: 9.6rem;
+    font-weight: 700;
+    color: $primary-color;
+    text-align: center;
+
+    @include desktop {
+        font-size: 28.8rem;
+    }
+}
+
+.notFound-text {
+    padding-top: 11px;
+    text-align: center;
+    font-size: $font-size-md;
+    color: $primary-color;
+
+    @include desktop {
+        padding-top: 66px;
+        font-size: $font-size-exlg;
+    }
+}
+
+.notFound-link {
+    padding-top: 133px;
+    text-align: center;
+
+    @include desktop {
+        padding-top: 183px;
+    }
+
+    &__a {
+        font-size: $font-size-exsm;
+        color: $primary-color;
+        text-decoration: underline;
+
+        @include desktop {
+            font-size: $font-size-md;
+        }
+    }
+}

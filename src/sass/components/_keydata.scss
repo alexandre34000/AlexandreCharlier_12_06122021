@@ -1,0 +1,59 @@
+/**
+* _keydata.scss 1.0 decembre 2021 by Alexandre CHARLIER  
+*
+* Author : Alexandre CHARLIER.
+* GitHub : https://github.com/alexandre34000/AlexandreCharlier_3_02042021.
+* GitHub Pages : https://alexandre34000.github.io/AlexandreCharlier_3_02042021/.
+* Theme Name : sportSee .
+* Description : Stylesheet pour le s categories.
+* Date: decembre 2021. 
+*/
+
+.container-keydata {
+    display: flex;
+    width: 258px;
+    height: 70px;
+    align-items: center;
+    background-color: $fourth-background;
+    border-radius: 5px;
+
+    @include tablette-landscape {
+        height: 100px;
+    }
+
+    @include desktop {
+        height: 124px;
+    }
+}
+
+.content-keydata {
+    display: flex;
+    align-items: center;
+}
+
+.keydata-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    margin-left: 20px;
+    border-radius: 6px;
+
+    @include desktop {
+        margin-left: 32px;
+    }
+}
+
+.keydata-text {
+    margin-left: 25px;
+}
+
+.keydata-text__value {
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.keydata-text__name {
+    font-size: 1.4rem;
+}
