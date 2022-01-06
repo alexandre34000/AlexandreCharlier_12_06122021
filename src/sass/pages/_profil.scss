@@ -1,0 +1,181 @@
+/**
+* _profil.scss 1.0 novembre 2021 by Alexandre CHARLIER  
+* Author : Alexandre CHARLIER.
+* GitHub : https://github.com/alexandre34000/AlexandreCharlier_11_16112021
+* Theme Name : Kasa.
+* Description : style de la page du profil pour ce projet.
+* Date: novembre 2021. 
+*/
+
+.container-profil {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 100%;
+
+  @include desktop {
+    min-height: calc(100vh - 92px);
+  }
+}
+
+.container-profil__sidebar {
+  background-color: $secondary-background;
+  width: 80px;
+
+  @include tablette-landscape {
+    width: 91px;
+  }
+
+  @include desktop {
+    width: 117px;
+  }
+}
+
+.container-profil__dashboard {
+  width: 100%;
+  height: 100%;
+  padding: 0 1% 0 1%;
+
+  @include desktop {
+    padding: 0 110px 0 110px;
+  }
+}
+
+.content__dashboard-header {
+  width: 100%;
+  height: 200px;
+
+  @include desktop {
+    height: 260px;
+  }
+}
+
+.dashboard-header__user {
+  padding-top: 34px;
+  font-size: $font-size-big;
+
+  span {
+    color: red;
+  }
+
+  @include desktop {
+    padding-top: 60px;
+    font-size: $font-size-big;
+  }
+}
+
+.dashboard-header__resume {
+  font-size: $font-size-md;
+  font-weight: 400;
+  padding-top: 20px;
+  padding-bottom: 38px;
+
+  @include desktop {
+    padding-top: 41px;
+    padding-bottom: 77px;
+  }
+}
+
+.content-dashboard__activities {
+  display: flex;
+  width: 100%;
+  height: auto;
+  flex-direction: column;
+
+  @include tablette-landscape {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+.dashboard-activities__center {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 100%;
+  height: 100%;
+
+  @include tablette-landscape {
+    width: 70%;
+  }
+}
+
+.dashboard-activity__today {
+  width: 100%;
+  height: 200px;
+  border-radius: 5px;
+  background-color: $fourth-background;
+
+  @include tablette-landscape {
+    height: 230px;
+  }
+
+  @include desktop {
+    height: 270px;
+  }
+}
+
+.profil__activity-group {
+  display: flex;
+  width: 100%;
+  height: auto;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  flex-direction: column;
+
+  @include tablette {
+    flex-direction: row;
+  }
+}
+
+.profil__activity-coverage {
+  width: 210px;
+  height: 210px;
+  background-color: $fifth-background;
+
+  @include desktop {
+    width: 210px;
+    height: 210px;
+  }
+}
+
+.profil__activity-radar {
+  width: 210px;
+  height: 210px;
+  background-color: #282D30;
+
+  @include desktop {
+    width: 210px;
+    height: 210px;
+  }
+}
+
+.profil__activity-score {
+  width: 210px;
+  height: 210px;
+  background-color: $fourth-background;
+
+  @include desktop {
+    width: 210px;
+    height: 210px;
+  }
+}
+
+.profil__activity-side {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: space-between;
+  width: 100%;
+
+  @include tablette-landscape {
+    width: 28%;
+  }
+
+  @include desktop {
+    width: 23%;
+    flex-direction: row;
+  }
+}

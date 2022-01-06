@@ -1,0 +1,66 @@
+/**
+* _activities.scss 1.0 decembre 2021 by Alexandre CHARLIER  
+*
+* Author : Alexandre CHARLIER.
+* GitHub : https://github.com/alexandre34000/AlexandreCharlier_3_02042021.
+* GitHub Pages : https://alexandre34000.github.io/AlexandreCharlier_3_02042021/.
+* Theme Name : sportSee .
+* Description : Stylesheet pour l'activité quotidienne.
+* Date: decembre 2021. 
+*/
+
+.content-barchart {
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.barhover {
+  fill: rgb(196, 196, 196);
+  opacity: 0;
+}
+
+.tooltip {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  position: absolute;
+  text-align: center;
+  width: 39px;
+  height: 63px;
+  font: 10px sans-serif;
+  background: #E60000;
+  pointer-events: none;
+  color: white;
+}
+
+.tooltip:after {
+  box-sizing: border-box;
+  display: inline;
+  font-size: 10px;
+  width: 100%;
+  line-height: 1;
+  color: rgba(0, 0, 0, 0.8);
+  content: "\25BC";
+  position: absolute;
+  left: -24px;
+  top: 45%;
+  right: 0;
+  transform: rotate(90deg);
+}
+
+.barchart-yAxis,
+.barchart-xAxis {
+  stroke: #9B9EAC;
+  stroke-width: .1;
+}
+
+.barchart-yAxis>line {
+  stroke: #DEDEDE;
+  stroke-width: 1;
+}
+
+.bar-chart__text-legend {
+  color: #74798C;
+}

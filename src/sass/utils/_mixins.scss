@@ -1,0 +1,55 @@
+/**
+* _mixins.scss 1.0 novembre 2021 by Alexandre CHARLIER  
+* Author : Alexandre CHARLIER.
+* GitHub : https://github.com/alexandre34000/AlexandreCharlier_11_16112021
+* Theme Name : Kasa.
+* Description : déclaration des mixins pour ce projet.
+* Date: novembre 2021. 
+*/
+
+/*-- Media query-- */
+@mixin mobile {
+  @media screen and(min-width: map-get($breakpoints, mobile)) {
+    @content;
+  }
+}
+
+@mixin mobile-landscape {
+  @media screen and(min-width: map-get($breakpoints, mobile-landscape)) {
+    @content;
+  }
+}
+
+@mixin tablette {
+  @media screen and(min-width: map-get($breakpoints, tablette)) {
+    @content;
+  }
+}
+
+@mixin tablette-landscape {
+  @media screen and(min-width: map-get($breakpoints, tablette-landscape)) {
+    @content;
+  }
+}
+
+@mixin desktop {
+  @media screen and (min-width: map-get($breakpoints, desktop)) {
+    @content;
+  }
+}
+
+@mixin tv {
+  @media screen and (min-width: map-get($breakpoints, tv)) {
+    @content;
+  }
+}
+
+@mixin externalPaddingDesktop {
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+@mixin externalPaddingMobile {
+  padding-left: 20px;
+  padding-right: 20px;
+}

@@ -1,0 +1,49 @@
+/**
+* _header.scss 1.0 decembre 2021 by Alexandre CHARLIER  
+*
+* Author : Alexandre CHARLIER.
+* GitHub : https://github.com/alexandre34000/AlexandreCharlier_3_02042021.
+* GitHub Pages : https://alexandre34000.github.io/AlexandreCharlier_3_02042021/.
+* Theme Name : sportSee .
+* Description : Stylesheet pour le header.
+* Date: decembre 2021. 
+*/
+
+.container-header {
+    width:100%;
+}
+
+.content-header {
+    display: flex;
+    align-items: center;
+    background-color: $secondary-background;
+    height: 80px;
+    width:100%;
+    padding: 0 20px 0 10px;
+   
+    @include tablette-landscape{
+    padding: 0 87px 0 29px;
+    height: 91px;
+}
+}
+
+.content-logo {
+}
+
+.logo { 
+ height: 61px;
+ margin-right: 62px;
+}
+
+.content-navbar {
+    display:none;
+   @include tablette{
+display: initial;
+   }
+   padding-right:25px;
+  width: 100%;
+    @include desktop{
+    width: 100%;
+    height: auto;
+}
+}

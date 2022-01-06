@@ -1,0 +1,41 @@
+/**
+* _sideBar.scss 1.0 decembre 2021 by Alexandre CHARLIER  
+*
+* Author : Alexandre CHARLIER.
+* GitHub : https://github.com/alexandre34000/AlexandreCharlier_3_02042021.
+* GitHub Pages : https://alexandre34000.github.io/AlexandreCharlier_3_02042021/.
+* Theme Name : sportSee .
+* Description : Stylesheet pour la sideBar.
+* Date: decembre 2021. 
+*/
+
+.content-sidebar {
+    display: grid;
+    height: 100%;
+    grid-template-columns: 100%;
+    grid-template-rows: 70% 30%;
+}
+
+.content-sidebar__icon {
+    grid-row: 1;
+    justify-self: center;
+    align-self: end
+}
+
+.sidebar-icon__logo {
+    display: block;
+    margin: 20px 0 20px 0;
+    width: 64px;
+    height: 64px;
+    border-radius: 6px;
+}
+
+.content-sidebar__text {
+    grid-row: 2;
+    justify-self: center;
+    align-self: center;
+    transform-origin: center;
+    transform: rotate(-90deg);
+    color: $secondary-color;
+    font-size: $font-size-min;
+}

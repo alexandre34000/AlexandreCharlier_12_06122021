@@ -1,0 +1,23 @@
+/**
+* _menutop.scss 1.0 decembre 2021 by Alexandre CHARLIER  
+*
+* Author : Alexandre CHARLIER.
+* GitHub : https://github.com/alexandre34000/AlexandreCharlier_3_02042021.
+* GitHub Pages : https://alexandre34000.github.io/AlexandreCharlier_3_02042021/.
+* Theme Name : sportSee .
+* Description : Stylesheet du menu top.
+* Date: decembre 2021. 
+*/
+
+.navbar {
+
+    &__ul {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .navbar__link {
+        color: $secondary-color;
+        font-size: $font-size-lg;
+    }
+}
